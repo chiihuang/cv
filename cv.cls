@@ -5,17 +5,21 @@
 
 \usepackage{enumitem}
 \usepackage{parskip}
-\usepackage{url}
+\usepackage{hyperref}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 \usepackage{bold-extra}
 \usepackage[en-US]{datetime2}
 
+%----------------
+% Package Setup
+%----------------
+\hypersetup{colorlinks,urlcolor=blue}
 \DTMlangsetup[en-US]{abbr=true}
 \DTMlangsetup[en-US]{showdayofmonth=false}
 
 \newcommand{\printName}[1]{\textbf{\huge \MakeUppercase{#1}}\\\vspace{0.5em}}
 \newcommand{\printPhone}[1]{{\em Phone}: #1\\}
-\newcommand{\printEmail}[1]{{\em Email}: #1\\}
+\newcommand{\printEmail}[1]{{\em Email}: \href{mailto:#1}{#1}\\}
 \newcommand{\printWebsite}[1]{{\em Website}: \url{#1}\\}
 \newcommand{\printAddress}[1]{{\em Address}: #1\\}
 

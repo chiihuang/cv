@@ -17,19 +17,20 @@
 
 \begin{cvSection}{Education}
 
-{\bf National Taiwan University}\iffalse, Taipei, Taiwan\fi \hfill \DTMDate{2009-09-01} - \DTMDate{2013-06-01}
+\begin{eduSubsection}{National Taiwan University}{Taipei, Taiwan}{\DTMDate{2009-09-01} - \DTMDate{2013-06-01}}
 
-B.S. in Computer Science \& Information Engineering\\
-Overall GPA: 3.79/4.0, Major GPA: 3.93/4.0\\
-Coursework: Machine Learning, Multimedia Analysis and Indexing, Data Structures and Algorithms, Cryptography, Compiler Design, Formal Languages and Automata Theory
-
+\item B.S. in Computer Science \& Information Engineering
+\item Overall GPA: 3.79/4.0, Major GPA: 3.93/4.0
+\item Coursework: Machine Learning, Multimedia Analysis and Indexing, Data Structures and Algorithms, Cryptography, Compiler Design, Formal Languages and Automata Theory
+\end{eduSubsection}
 
 \begin{eduSubsection}{Continuing Education}{Online Certifications}{\DTMDate{2015-01-01} - \DTMDate{2015-07-01}}
-
+\item *Mining Massive Datasets, Stanford University % 98.7\% with Distinction
 \item Introduction to Big Data with Apache Spark, University of California, Berkeley % final grade: 100\%, June - July 2015
 \item Design and Development of Games for Learning, Massachusetts Institute of Technology % final grade: 92\%, Apr - June 2015
-\item * Mining Massive Datasets, Stanford University % 98.7\% with Distinction
 \item Gamification, University of Pennsylvania % 95.8\%
+
+\hfill {\footnotesize *: Statement of Achievement with Distinction}
 % \item Pattern Discovery in Data Mining, University of Illinois at Urbana-Champaign % 88.2\%
 
 \end{eduSubsection}
@@ -40,15 +41,16 @@ Coursework: Machine Learning, Multimedia Analysis and Indexing, Data Structures 
 % Experience
 %------------------------------------------------------------------------------
 
-\begin{cvSection}{Experience}
+\begin{cvSection}{Work Experience}
 
-\begin{experienceSubsection}{Wavenet Tech Inc.}{Taipei, Taiwan}{\DTMDate{2015-02-01} - Present}{Full-stack Node.js engineer}
+\begin{experienceSubsection}{Wavenet Tech Inc.}{Taipei, Taiwan}{\DTMDate{2015-02-01} - Present}{Technical Lead}
 
-\item Developed multi-threading non-blocking IO web service for real-time bidding (RTB).
-\item Built RTB platform $99\%$ requests responed under $100$ms with $1000$ QPS
-\item Optimized and maintained reporting system which calculates bidding insights from 10 million data per day.
-\item Data Analysis via Apache Spark \& Hadoop Multi-node cluster.
-\item Designed conversion contribution calculation kernel.
+\item Led a 4-member team to pioneer edge-cutting Big Data techologies.
+\item Developed multi-threading web service for real-time bidding (RTB).
+\item Optimized NoSQL queries to suffice the requirement that $99\%$ responses should be under $100$ms with $1000$ QPS.
+\item Optimized and maintained reporting system to calculate high dimension bidding insights from 10 million data per day.
+\item Deployed and maintained computation resources on Spark and Hadoop cluster. 
+% \item Designed conversion contribution calculation kernel.
 % \item Designed cookie tracking pixels and entity resolution.
 % \item Built testing framework for code quality via Mocha.
 % \item Deployed alert manager for node failure detection.
@@ -71,7 +73,7 @@ Coursework: Machine Learning, Multimedia Analysis and Indexing, Data Structures 
 \end{cvSection}
 
 % For aesthetic
-%\pagebreak
+\pagebreak
 
 %------------------------------------------------------------------------------
 % Selected Projects
@@ -79,36 +81,38 @@ Coursework: Machine Learning, Multimedia Analysis and Indexing, Data Structures 
 
 \begin{cvSection}{Selected Projects}
 
-\begin{projectSubsection}{Crazy Fruit Market}{\DTMDate{2015-04-01} - \DTMDate{2015-06-01}}{Advanced Vocabulary Learning Game}
+\begin{projectSubsection}{Crazy Fruit Market  \href{http://jasson15.github.io/crazy-fruit-market}{link}}{\DTMDate{2015-04-01} - \DTMDate{2015-06-01}}{Advanced Vocabulary Learning Game}
 
-\item Course project of Design and Development of Games for Learning, MIT
+\item Crazy Fruit Market is a coursework of “Design and Development of Games for Learning, MIT".
 \item Facilitated the learning process of ESL learners for advanced English vocabularies.
-\item Capable of playing the game on cross-platform play via HTML5 touch event.
-\item Faciliated deployment process by containerizing the project into Docker image.
-\item Build up a game development chain, from art design, educational material design to software engineering.
-\item Cocos2d-js, JavaScript, GIMP, Docker
+\item Built cross-device game by introducing Cocos2d game engine.
+\item Faciliated deployment process and enviroment setup by containerizing the project into Docker image.
+\item Built up a game development chain from scratch, including art design, educational material design and software engineering.
+\item Cocos2d, JavaScript, GIMP, Docker
 
 \end{projectSubsection}
 
-\begin{projectSubsection}{Face Annotation}{\DTMDate{2012-07-01} - \DTMDate{2013-06-01}}{undergraduate project}
+\begin{projectSubsection}{Face Annotation \href{http://cmlab.csie.ntu.edu.tw/~pi/face_annotation}{link}}{\DTMDate{2012-07-01} - \DTMDate{2013-06-01}}{undergraduate project}
 
-\item Face Annotation is a concurrent web-based tool for annotating 4,000+ facial data simultaneously.
-\item Provided significant data in Hao-Ting Chang’s master’s thesis, “Context-augmented profile face attributes detection”.
-\item Developed online visual marker to mark face and eyes positions via JavaScript and HTML5.  
-\item Created documentation website guiding users installation, configuration and customizing their own facial data annotating website. 
+\item Face Annotation is a concurrent web-based tool for annotating data simultaneously.
+\item Provided 4,000+ facial data in Hao-Ting Chang's master's thesis, “Context-augmented profile face attributes detection”.
+\item Developed visual marker to mark face and eyes positions by dragging and dropping the markers. 
+\item Documented the whole architecture and detailed programming guides on the project website, guiding site admistrators to install, configure and customize their own facial data annotating website. 
+\item HTML5, JavaScript, PHP, MySQL
 
 \end{projectSubsection}
 
-\begin{projectSubsection}{Eventy}{\DTMDate{2012-05-01} - \DTMDate{2012-12-01}}{startup}
+\begin{projectSubsection}{Eventy}{\DTMDate{2012-05-01} - \DTMDate{2012-12-01}}{Start-up}
 
 \item Eventy was a social network service (SNS), which attracted nearly 200 users in 2 weeks.
+% \item Met angel investors.
 \item Activated Chinese indexing in search engine via Chinese segments algorithm within Coreseek.
 \item Achieved real time index update, which updates index in every 5 minutes.
 
 \end{projectSubsection}
 
 
-\begin{projectSubsection}{Machine Learning Class Competition}{\DTMDate{2012-11-01} - \DTMDate{2013-01-01}}{team project}
+\begin{projectSubsection}{Machine Learning}{\DTMDate{2012-11-01} - \DTMDate{2013-01-01}}{Team Competition on Course}
 
 \item Predicted with accuracy of $74.2\%$ from $90,000$ 72-dimensional missing value data.
 \item Improved ranking from $46^{th}$ to $37^{th}$ by adapting new method to fill missing data via Amelia.
@@ -120,14 +124,28 @@ Coursework: Machine Learning, Multimedia Analysis and Indexing, Data Structures 
 \end{cvSection}
 
 %------------------------------------------------------------------------------
-% Programming Skills and Tools
+% Extracurricular Activities
 %------------------------------------------------------------------------------
 
-\begin{cvSection}{Programming Skills and Tools}
+% \begin{cvSection}{Extracurricular Activities}
+
+% \begin{experienceSubsection}{Taiwan Fund for Children and Families}{Taipei, Taiwan}{\DTMDate{2012-05-01} - \DTMDate{2012-06-01}}{Volunteer English Tutor}
+
+% \item Taught English to a teenager 1.5 hour every week.
+
+% \end{experienceSubsection}
+
+% \end{cvSection}
+
+%------------------------------------------------------------------------------
+% Skills
+%------------------------------------------------------------------------------
+
+\begin{cvSection}{Skills}
 
 \begin{itemize}[label=$\cdot$,leftmargin=0em]
 
-\item Experienced: Node.js, MongoDB, Spark, C, Java, Python, JavaScript, Docker
+\item Programming: JavaScript, NoSQL, Spark, C, Java, Python, Docker
 \item Languages: English (fluent), Japanese (basic), Chinese (native)
 \item Standardized Tests: GRE(V160, Q167, AWA3.5), TOEFL(107), TOEIC (885)
 
