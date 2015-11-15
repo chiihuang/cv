@@ -1,0 +1,44 @@
+{
+  "folders":
+  [
+    {
+      "path": "/Users/pi/Documents/worklab/orcalab/cv"
+    }
+  ],
+  "settings":
+  {
+    "tab_size": 4,
+    "spell_check": true,
+    "dictionary": "Packages/Language - English/en_US.dic",
+    "open_externally_patterns": [
+      "*.jpg",
+      "*.jpeg",
+      "*.png",
+      "*.gif",
+      "*.zip",
+      "*.pdf"
+    ]
+  },
+  "build_systems":
+  [
+    {
+      "name": "Make Latex",
+      "cmd": ["make", "-B"],
+      "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+      "working_dir": "${project_path:${folder:${file_path}}}",
+      "selector": "source.makefile",
+      "path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Library/TeX/texbin",
+      "variants":
+      [
+        {
+          "name": "Clean",
+          "cmd": ["make", "clean"]
+        },
+        {
+          "name": "Test",
+          "cmd": ["make", "test"]
+        }
+      ]
+    }
+  ]
+}
