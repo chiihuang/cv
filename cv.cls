@@ -42,7 +42,7 @@
 % #1: Title, #2: City, #3: Interval
 \newenvironment{eduSubsection}[3]{
 	{\bf #1}, #2 \hfill #3
-	\begin{itemize}[label=$\cdot$,leftmargin=0em]
+	\begin{itemize}[label=$\cdot$]
 }{
 	\end{itemize}
 }
@@ -51,7 +51,7 @@
 \newenvironment{experienceSubsection}[4]{
 	{\bf #1} \hfill #3\\
 	{\em #4} \hfill #2
-	\begin{itemize}[label=$\cdot$,leftmargin=0em]
+	\begin{itemize}[label=$\cdot$]
 }{
 	\end{itemize}
 	\medskip
@@ -61,7 +61,7 @@
 \newenvironment{projectSubsection}[3]{
 	{\bf #1} \hfill #2\\
 	{\em #3}
-	\begin{itemize}[label=$\cdot$,leftmargin=0em]
+	\begin{itemize}[label=$\cdot$]
 }{
 	\end{itemize}
 	\medskip
